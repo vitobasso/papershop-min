@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans|Roboto' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="all.min.css">
+
+    <script src="all.min.js"></script>
+
+</head>
+<body>
+
+<div id="main">
+
+    <div id="left">
+        <div id="keyword-div">
+            <input type="text" id="search-field" placeholder="Keywords"/>
+            <button id="search-button">Find</button>
+        </div>
+        <div id="filters">
+        </div>
+    </div>
+
+    <div id="right">
+        <div id="top">
+            <div id="message"></div>
+        </div>
+        <div id="chart"></div>
+    </div>
+
+</div>
+
+<!-- dialogs -->
+<div id="config"></div>
+<div id="request-log">
+    <table>
+        <thead>
+        <tr>
+            <td class="description">Filter</td>
+            <td class="count">#Items</td>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
